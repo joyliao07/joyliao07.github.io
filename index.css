@@ -1,0 +1,100 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+html {
+    height: 100%;
+    background-color: #000000;
+    color: white;
+
+    
+  }
+
+
+
+  a:hover {
+    color: blue;
+    text-decoration: underline overline;
+  }
+
+  body {
+     width: 650px;
+     height: 100%;
+     margin: auto;
+    
+    
+    
+  }
+  
+
+  header {
+      background: url(bg.jpg) #8EA9FB;
+      border-radius: 5px 20px 5px;
+      border: 1px solid white;
+      padding-left: 25px;
+      padding-right: 15px;
+      margin-bottom: 30px;
+      display: block;
+      font-size: 20px;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  img {
+    height: 300px;
+    border-radius: 5px 20px 5px;
+  }
+  
+  .cover {
+    width: 260px;
+    object-fit: contain;
+  }
+  nav {
+    background: url(bg.jpg) #000000;
+    border-radius: 5px 20px 5px;
+    border: 1px solid white;
+      float: right;
+      width: 20%;
+  }
+  nav ul {
+      padding-left: 1px;
+      float: right;
+      border-bottom: ;
+      list-style-type: none;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  nav li {
+      float: left;
+  }
+  nav li a {
+      display: block;
+      height: 25px;
+      padding: 12px 18px 8px 18px;
+      vertical-align: middle;
+  }
+  a {
+      color: #8EA9FB;
+  }
+  section {
+      width: 75%;
+      display: inline-block;
+      float: left;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  aside {
+      width: 17%;
+      display: inline-block;
+      background-color:#8EA9A9;
+      padding:;
+      min-height: 100%;
+  }
+  aside ul {
+      list-style-type: none;
+  }
+  footer {
+      width: 790px;
+      background-color:#8EA9A9;
+      color: #8EA9A9;
+      clear: both;
+      display: block;
+  }
